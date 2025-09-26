@@ -24,7 +24,7 @@ Includes:
 
 ---
 
-## 1- Predicting Blood Donations
+## 1️⃣ Predicting Blood Donations
 **Objective:** Predict whether a donor will donate in the future.
 
 **Methodology:**  
@@ -32,13 +32,11 @@ Includes:
 - Applied feature scaling and class balancing  
 
 **Model Performance:**  
-- Random Forest: **~85% accuracy**  
-- Logistic Regression: ~78%  
-- Decision Tree: ~74%  
+- Random Forest: **~85% accuracy** ✅  
 
 **Feature Insights:**  
-- Number of previous donations and recency are strongest predictors  
-- Demographics moderately influence outcomes  
+- ![Correlation Circle](images/Correlation%20Circle.png)
+- ![Feature Importance](images/Feature%20Importance.png)
 
 **Practical Use:**  
 - Helps blood banks **target likely donors**  
@@ -46,10 +44,9 @@ Includes:
 
 ---
 
-## 2- Model Evaluation
-- **Confusion Matrix**  
-- **Classification Report** (Precision, Recall, F1-score)  
-- **ROC Curve and AUC**  
+## 2️⃣ Model Evaluation
+- ![Model Performance](images/Model%20Performance.png)  
+- ![Confusion Matrix](images/Confusion%20Matrix.png)  
 
 **Takeaways:**  
 - Ensemble models outperform single classifiers  
